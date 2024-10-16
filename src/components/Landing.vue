@@ -21,7 +21,7 @@
   height: 100%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-    url("@/assets/sunny.png");
+    url("@/assets/cloudy.png");
   background-size: cover;
   background-attachment: fixed;
   background-position-x: right;
