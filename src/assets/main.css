@@ -1,5 +1,9 @@
 @import "primeicons/primeicons.css";
 
+:root {
+  --bg: rgba(42, 43, 47, 255);
+}
+
 * {
   margin: 0;
   padding: 0;
