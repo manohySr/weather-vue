@@ -1,6 +1,7 @@
 <script setup>
 import Landing from "@/components/Landing.vue";
 import Stats from "@/components/Stats.vue";
+import Menu from "@/components/Menu.vue";
 </script>
 
 <template>
@@ -13,7 +14,9 @@ import Stats from "@/components/Stats.vue";
         <Stats />
       </div>
     </div>
-    <div class="container__r"></div>
+    <div class="container__r">
+      <Menu />
+    </div>
   </div>
 </template>
 
