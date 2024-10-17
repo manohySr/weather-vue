@@ -15,7 +15,7 @@
 .container {
   border-radius: 2rem;
   padding: 2rem 5rem;
-  background: rgba(42, 43, 47, 255);
+  background: var(--bg);
   color: aliceblue;
   width: 100%;
 }
@@ -35,7 +35,8 @@
   display: block;
   padding: 2rem 0;
   width: 19%;
-  background-color: red;
+  background: #ffffff15;
+  border-radius: 1rem;
 }
 
 .siweather__number {
