@@ -1,3 +1,9 @@
+<script setup>
+const handleClick = (city) => {
+  console.log("hello from,", city)
+}
+
+</script>
 <template>
   <div class="container">
     <div class="c__head">
@@ -6,17 +12,17 @@
         <div class="ttime">01:00 PM</div>
       </div>
       <div class="temp">
-        <div class="temp__num">20°</div>
+        <div class="temp__num">-20°</div>
         <div class="temp__air">Northwest, 40.9km/h</div>
       </div>
     </div>
     <div class="otherland">
       <div class="ot__title">Watch other city</div>
       <div class="c__city">
-        <div class="city">Belgium</div>
-        <div class="city">Canada</div>
-        <div class="city">France</div>
-        <div class="city">Germany</div>
+          <button class="city" @click="handleClick('Belgium')">Belgium</button>
+        <button class="city" @click="handleClick('Canada')">Canada</button>
+        <button class="city" @click="handleClick('France')">France</button>
+        <button class="city" @click="handleClick('Germany')">Germany</button>
       </div>
     </div>
   </div>
